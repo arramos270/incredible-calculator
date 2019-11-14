@@ -36,7 +36,24 @@ public class Ppal {
 				
 				resul=num1+num2;
 				
-				System.out.println("La suma de " + num1 + "+" + num2 + " es " + resul);
+				System.out.println("La suma de " + num1 + " + " + num2 + " es " + resul);
+				
+				break;
+				
+			case 2:
+				
+				System.out.println("Vas a restar.\n"
+						+ "Pon el primer número:");
+				
+				num1=Leer.datoDouble();
+				
+				System.out.println("Pon el segundo número:");
+				
+				num2=Leer.datoDouble();
+				
+				resul=num1-num2;
+				
+				System.out.println("La resta de " + num1 + " - " + num2 + " es " + resul);
 				
 				break;
 				
