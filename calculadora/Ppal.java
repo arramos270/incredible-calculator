@@ -74,6 +74,23 @@ public class Ppal {
 				
 				break;
 				
+			case 4:
+				
+				System.out.println("Vas a dividir.\n"
+						+ "Pon el primer número:");
+				
+				num1=Leer.datoDouble();
+				
+				System.out.println("Pon el segundo número:");
+				
+				num2=Leer.datoDouble();
+				
+				resul=num1/num2;
+				
+				System.out.println("La división de " + num1 + " / " + num2 + " da " + resul);
+				
+				break;
+				
 			}
 			
 		}while (op!=0);
