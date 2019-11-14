@@ -16,28 +16,10 @@ public class Ppal {
 					+ "Pulsa 1 para sumar.\n"
 					+ "Pulsa 2 para restar.\n"
 					+ "Pulsa 3 para multiplicar.\n"
-					+ "Pulsa 4 para divivir.\n");
+					+ "Pulsa 4 para divivir.\n"
+					+ "Pulsa 0 para salir.\n");
 			
 			op=Leer.datoInt();
-			
-			switch(op) {
-			
-			case 1:
-				
-				System.out.println("Vas a sumar.\n"
-						+ "Pon el primer número:");
-				
-				num1=Leer.datoDouble();
-				
-				System.out.println("Pon el segundo número:");
-				
-				num2=Leer.datoDouble();
-				
-				resul=num1+num2;
-				
-				System.out.println("La suma de " + num1 + "+" + num2 + " es " + resul);
-				
-			}
 			
 		}while (op!=0);
 		
