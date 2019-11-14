@@ -57,6 +57,23 @@ public class Ppal {
 				
 				break;
 				
+			case 3:
+				
+				System.out.println("Vas a multiplicar.\n"
+						+ "Pon el primer número:");
+				
+				num1=Leer.datoDouble();
+				
+				System.out.println("Pon el segundo número:");
+				
+				num2=Leer.datoDouble();
+				
+				resul=num1*num2;
+				
+				System.out.println("El producto de " + num1 + " * " + num2 + " es " + resul);
+				
+				break;
+				
 			}
 			
 		}while (op!=0);
