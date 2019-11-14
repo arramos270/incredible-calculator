@@ -21,6 +21,27 @@ public class Ppal {
 			
 			op=Leer.datoInt();
 			
+			switch(op) {
+			
+			case 1:
+				
+				System.out.println("Vas a sumar.\n"
+						+ "Pon el primer número:");
+				
+				num1=Leer.datoDouble();
+				
+				System.out.println("Pon el segundo número:");
+				
+				num2=Leer.datoDouble();
+				
+				resul=num1+num2;
+				
+				System.out.println("La suma de " + num1 + "+" + num2 + " es " + resul);
+				
+				break;
+				
+			}
+			
 		}while (op!=0);
 		
 	}
